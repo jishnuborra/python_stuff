@@ -1,4 +1,4 @@
-print ("Text based calculator")
+print("Text based calculator")
 try:
     number = float(input("Enter your first number "))
     numbertwo = float(input("Enter your second number "))
@@ -24,7 +24,7 @@ def exponent(number, numbertwo):
     return number ** numbertwo
     
 
-answer = input ("What do you want to do ((s)ubtraction, (a)ddition, (d)ivison, (m)ultiplication, (e)xponents  ")
+answer = input("What do you want to do ((s)ubtraction, (a)ddition, (d)ivison, (m)ultiplication, (e)xponents  ")
 if answer == "a":
     print(add(number, numbertwo))
 elif answer == "s":
